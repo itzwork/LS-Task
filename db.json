@@ -1,0 +1,48 @@
+{
+  "employees": [
+    {
+      "id":1,
+      "name":"Roni Bonim",
+      "companyId":"60d86c3ea3a4ab476bd79431",
+      "phone":"05099983765",
+      "address":"Rothschild 22 Tel Aviv",
+      "picture":"",
+      "dateStart":{
+        "$date":{
+          "$numberLong":"1624741200000"
+        }
+      },
+      "employeeType":"watching"
+    },
+    {
+      "id":2,
+      "name":"Alex Shvarts",
+      "companyId":"60d86df5a3a4ab476bd79433",
+      "phone":"05099983765",
+      "address":"Trumpeldor 1 Petach Tikva",
+      "picture":"",
+      "dateStart":{
+        "$date":{
+          "$numberLong":"1624914000000"
+        }
+      },
+      "employeeType":"admin"
+    }
+  ],
+  "users": [
+    {
+      "id":1,
+      "firstName":"Dan",
+      "lastName":"Choen",
+      "email":"123456@gmail.com",
+      "password":"Gm123456"
+    },
+    {
+      "id":2,
+      "firstName":"Yael",
+      "lastName":"Levi",
+      "email":"12345678@gmail.com",
+      "password":"Gm12345678"
+    }
+  ]
+}
